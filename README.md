@@ -1,5 +1,24 @@
 # Artifact Repository Manager with Nexus
 
+## Table of Contents
+
+- [Create Ubuntu Server (Droplet)](#create-ubuntu-server-droplet)
+    - [Configuration](#configuration)
+- [Open Ports](#open-ports)
+- [Install Java](#install-java)
+- [Download and Install Nexus](#download-and-install-nexus)
+- [Create User and Group](#create-user-and-group)
+- [Start Nexus Server](#start-nexus-server)
+- [Check on Browser](#check-on-browser)
+- [Login with Default User](#login-with-default-user)
+- [Create New Nexus User and Role](#create-new-nexus-user-and-role)
+- [Configure the Gradle Project with Nexus](#configure-the-gradle-project-with-nexus)
+    - [In build.gradle](#in-buildgradle)
+    - [Build Project](#build-project)
+    - [Publish Project Using Gradle Publish Plugin](#publish-project-using-gradle-publish-plugin)
+- [Maven Configuration in pom.xml](#maven-configuration-in-pomxml)
+- [Build and Deploy](#build-and-deploy)
+
 ## create ubuntu server (droplet)
 ### configuration
 - 4 GB RAM
