@@ -4,8 +4,8 @@
 
 - [Create Ubuntu Server (Droplet)](#create-ubuntu-server-droplet)
     - [Configuration](#configuration)
-- [Open Ports](#open-ports)
-- [Install Java](#install-java)
+    - [Open Ports](#open-ports)
+    - [Install Java](#install-java)
 - [Download and Install Nexus](#download-and-install-nexus)
 - [Create User and Group](#create-user-and-group)
 - [Start Nexus Server](#start-nexus-server)
@@ -24,12 +24,10 @@
 - 4 GB RAM
 - 2 CPUs
 - 160 GB SSD Disk
-
-## open ports
+### open ports
 - open port 22 as an inbound rule
 - open port 8081 as an inbound rule
-
-## install java
+### install java
 ```bash
 apt install openjdk-25-jre-headless
 ```
