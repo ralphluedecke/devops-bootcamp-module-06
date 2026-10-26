@@ -15,7 +15,8 @@ returning all the components of the repo
 
 ## get one component
 ```bash
-curl -u user:pw -X GET 'http://IP:8081/service/rest/v1/components/bWF2ZW4tc25hcHNob3RzOjhkMTJlNzI'```
+curl -u user:pw -X GET 'http://IP:8081/service/rest/v1/components/bWF2ZW4tc25hcHNob3RzOjhkMTJlNzI'
+```
 returning the component's assets
 
 ## get all releases
