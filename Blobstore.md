@@ -49,6 +49,6 @@ organized by data (2026/07/20/16/52/00)
 
 ## assign blob store
 When creating a repo go to
-``bash
+```bash
 Settings>Repository>assign Blob Store 
 ```
